@@ -3,17 +3,16 @@
 The Homebrew formula for [EyeGen](https://github.com/CodeAndCanvas728/eyegen-playground) —
 local image generation on Apple Silicon.
 
-## Install
+## The formula
+
+It arrives with the first release. A Homebrew formula without a checksum is not a
+formula: the checksum is of the tarball the release publishes, and there is nothing
+to check against until there is a release.
 
 ```sh
 brew tap CodeAndCanvas728/eyegen
 brew install eyegen
 ```
-
-## Where the formula comes from
-
-The formula lives in the EyeGen repository, at `homebrew/eyegen.rb`, and is copied
-here at each release — the version, the tag and the checksums move together.
 
 ## Keeping the backends current
 
